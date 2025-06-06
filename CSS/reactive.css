@@ -1,0 +1,21 @@
+@media (min-width: 700px) {
+
+    .header-options > button{
+        display: none;
+    }
+    .header-texto-options{
+        max-width: 600px;
+        width: 100%;
+
+        margin-left: 20px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-texto-options > h3{
+        color: black;
+
+        font-size: 12px;
+    }
+}

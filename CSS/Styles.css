@@ -70,3 +70,6 @@ body {
     background-color: #004d9f;
     border: none;
 }
+.header-texto-options{
+    display: none;
+}
