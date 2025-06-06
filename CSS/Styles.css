@@ -33,8 +33,40 @@ body {
 
 .container {
 	width: 100%;
-	max-width: 830px;
+	max-width: 1000px;
 	padding-left: 15px;
 	padding-right: 15px;
     margin: auto;
+}
+
+.header{
+    background-color: #004d9f;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo > img{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    display: block;
+}
+
+.header-options > button > img{
+    width: 100%;
+    max-width: 30px;
+    height: auto;
+    display: block;
+}
+
+.header-options > button{
+    width: 100%;
+    max-width: 30px;
+    height: auto;
+    display: block;
+    background-color: #004d9f;
+    border: none;
 }
