@@ -40,13 +40,14 @@ body {
 }
 
 .header{
-    background-color: #004d9f;
     width: 100%;
     height: auto;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    position: sticky;
 }
 .header-logo > img{
     width: 100%;
@@ -66,10 +67,24 @@ body {
     width: 100%;
     max-width: 30px;
     height: auto;
+    background-color: #fff;
     display: block;
-    background-color: #004d9f;
     border: none;
 }
 .header-texto-options{
     display: none;
+}
+
+/*Main*/
+
+.container-background{
+	width: 100%;
+	max-width: 1000px;
+    margin: auto;
+}
+.main-background > img{
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
 }
