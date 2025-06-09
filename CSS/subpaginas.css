@@ -1,0 +1,24 @@
+.privaciti{
+    padding-right: 20px;
+    padding-left: 20px;
+
+    text-align: left;
+}
+.privaciti-text, .privaciti-title{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.privaciti-text{
+    color: #3d3d3d;
+    letter-spacing: 2px;
+}
+.privaciti-title{
+    letter-spacing: 5px;
+
+    color: #000;
+
+    font-weight: 700;
+    font-size: 44px;
+}
+.privaciti-text-paragraph{
+    padding-top: 20px;
+}
