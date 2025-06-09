@@ -24,4 +24,33 @@
     padding-top: 20px;
 }
 
-/*Siguiente pagina*/
+/*Page legal*/
+.legality{
+    padding: 20px;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: #3d3d3d;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 44px;
+}
+.legality-paragraph{
+    margin-top: 20px;
+}
+.legality-title{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+}
+.legality-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3d3d3d;
+    letter-spacing: 2px;
+}
+strong{
+    font-family: Arial, Helvetica, sans-serif;
+}
