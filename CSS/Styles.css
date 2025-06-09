@@ -1,3 +1,9 @@
+*{
+  font-family: "Edu VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 :root {
   --main-color: #004d9f;
 }
@@ -98,7 +104,7 @@ img{
 }
 .main-options > button{
     background-color: #e68e28;
-    color: #fff;
+    color: #000;
     width: 100%;
     max-width: 100px;
     height: auto;
@@ -135,4 +141,29 @@ img{
 }
 .container-img > img{
     margin-top: 15px;
+}
+/*Pie de pagina*/
+.footer{
+    background-color: #000;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 30px;
+    margin-top: 15px;
+}
+.footer-text, .footer-text-title{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-text{
+    color: gray;
+}
+.footer-text-title{
+    color: #d3d3d3;
+    font-size: 22px;
+}
+ul,li{
+    list-style-type: none;
+    padding-right: 30px;
 }
