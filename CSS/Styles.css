@@ -30,7 +30,12 @@ body {
     margin: 0;
     background-color: #fff;
 }
-
+img{
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: inline-block;
+}
 .container {
 	width: 100%;
 	max-width: 1000px;
@@ -49,23 +54,23 @@ body {
 
     position: sticky;
 }
-.header-logo > img{
+.header-logo > a > img{
     width: 100%;
-    max-width: 150px;
+    max-width: 80px;
     height: auto;
     display: block;
 }
 
 .header-options > button > img{
     width: 100%;
-    max-width: 30px;
+    max-width: 100px;
     height: auto;
     display: block;
 }
 
 .header-options > button{
     width: 100%;
-    max-width: 30px;
+    max-width: 50px;
     height: auto;
     background-color: #fff;
     display: block;
@@ -81,10 +86,50 @@ body {
 	width: 100%;
 	max-width: 1000px;
     margin: auto;
+    padding: auto;
+
+    position: relative;
 }
 .main-background > img{
     width: 100%;
     max-width: 1000px;
     height: auto;
     display: block;
+}
+.main-options > button{
+    background-color: #e68e28;
+    color: #fff;
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+
+    padding: 10px;
+    
+    border: none;
+    border-radius: 5px;
+
+    font-size: 8px;
+
+    position: absolute;
+    left: 25%;
+    top: 70%;
+    transform: translateX(-50%);  
+}
+
+/*Seccion 1*/
+.section-1-shop > h1{
+    text-align: center;
+
+    color: #000;
+    font-weight: 600;
+}
+.container-img{
+    width: 100%;
+    max-width: 1000px;
+
+    margin: auto;
+    
+}
+.container-img > img{
+    margin-top: auto;
 }
