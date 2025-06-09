@@ -8,6 +8,8 @@
         max-width: 600px;
         width: 100%;
 
+        color: #000;
+
         margin-left: 20px;
 
         display: flex;
@@ -19,7 +21,15 @@
 
         font-size: 12px;
     }
+    .header-texto-options > a{
+        text-decoration: none;
+
+        color: #000;
+        
+        font-size: 12px;
+    }
 }
+
 /*Mian, el boton*/
 @media (min-width: 425px) {
     .main-options > button{
@@ -37,15 +47,6 @@
 }
 
 /*Seccion 1 productos*/
-@media (min-width: 700px){
-    .container-img > img{
-        margin-top: 15px;
-        margin: auto;
-
-        width: 100%;
-        max-width: 220px;
-    }
-}
 @media (min-width: 760px){
     .container-img > img{
         margin-top: 15px;
@@ -53,5 +54,7 @@
 
         width: 100%;
         max-width: 300px;
+
+        margin-top: 15px;
     }
 }

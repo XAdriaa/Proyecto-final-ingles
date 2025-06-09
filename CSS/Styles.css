@@ -128,8 +128,11 @@ img{
     max-width: 1000px;
 
     margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
     
 }
 .container-img > img{
-    margin-top: auto;
+    margin-top: 15px;
 }
