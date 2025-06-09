@@ -54,3 +54,21 @@ h1{
 strong{
     font-family: Arial, Helvetica, sans-serif;
 }
+/*Page Acessibility*/
+.accessibility{
+       padding: 20px;
+    text-align: left; 
+}
+.accessibility-paragraph{
+    padding-top: 10px;
+}
+.accessibility-title{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+}
+.accessibility-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3d3d3d;
+    letter-spacing: 2px;
+}
