@@ -170,3 +170,125 @@ ul,li{
     list-style-type: none;
     padding-right: 30px;
 }
+/*Pagina de privacidad*/
+.privaciti{
+    padding-right: 20px;
+    padding-left: 20px;
+
+    text-align: left;
+}
+.privaciti-text, .privaciti-title{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.privaciti-text{
+    color: #3d3d3d;
+    letter-spacing: 2px;
+}
+.privaciti-title{
+    letter-spacing: 5px;
+
+    color: #000;
+
+    font-weight: 700;
+    font-size: 44px;
+}
+.privaciti-text-paragraph{
+    padding-top: 20px;
+}
+
+/*Page legal*/
+.legality{
+    padding: 20px;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: #3d3d3d;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 44px;
+}
+.legality-paragraph{
+    margin-top: 20px;
+}
+.legality-title{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+}
+.legality-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3d3d3d;
+    letter-spacing: 2px;
+}
+strong{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Page Acessibility*/
+.accessibility{
+       padding: 20px;
+    text-align: left; 
+}
+.accessibility-paragraph{
+    padding-top: 10px;
+}
+.accessibility-title{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+}
+.accessibility-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3d3d3d;
+    letter-spacing: 2px;
+}
+/*Page gallery*/
+.gallery-title{
+    color: #000;
+
+    text-align: center;
+
+    font-size: 44px;
+}
+.gallery-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+}
+.gallery-img > img{
+    width: 100%;
+    max-width: 280px;
+
+    margin: 10px;
+}
+
+img{
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: inline-block;
+}
+/*Page bussines*/
+.bussines-bread{
+    display: flex;
+
+    color: #000;
+}
+.bussines-bread-text > p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bussines-sugar{
+    display: flex;
+
+    color: #000;
+}
+.bussines-sugar-text > p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bussines-sugar-text{
+    padding-left: 15px;
+}
